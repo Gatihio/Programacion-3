@@ -40,7 +40,7 @@
         <li>&lt;abbr&gt;</li>
         <p><abbr title="The Retrieve, Extract y Profit Operation">R.E.P.O</abbr> es un juego falopa y chambeador.</p>
 
-        <li>&lt;area&gt;</li>
+        <li>&lt;area, map&gt;</li>
         <p>Elige tu complexión física:</p>
 
         <img src="Cuerpo.png" alt="Tipos de cuerpo" usemap="#Cuerpos" width="270" height="200">
@@ -66,7 +66,7 @@
           </aside>
           
         <li>&lt;audio&gt;</li>
-        <p>Toca para escuchar el mejor audio dev la historia:</p>
+        <p>Toca para escuchar el mejor audio de la historia:</p>
 
         <audio controls>
         <source src="Momo.mp3" type="audio/mpeg">
@@ -93,12 +93,12 @@
         Hombre irrumpe en casa de florida para robar pero los propietarios se encuentran con que su gato fue rapado por el ladrón
         </blockquote>
 
-        <li>&lt;body&gt;</li>
+        <li>&lt;body, header, head&gt;</li>
         <h1>Esto es un titulo</h1>
         <p>Y esto es un parrafo que dice.... haber dejame verlo bien,mmmmmm, si creo que si, dice que esto es un parrafo</p>
 
         <li>&lt;br&gt;</li>
-        <p>T<br>r<br>a<br>l<br>a<br>l<br>e<br>r<br>o<br>t<br>r<br>a<br>l<br>a<br>l<br>a<br>p<br>o<br>r<br>c<br>o<br>d<br>i<br>l<br>o<br> p<br>o<br>r<br>c<br>o<br>d<br>a</p>
+        <p>T<br>r<br>a<br>l<br>a<br>l<br>e<br>r<br>o<br>t<br>r<br>a<br>l<br>a<br>l<br>a<p>
 
         <li>&lt;button&gt;</li>
 
@@ -112,7 +112,7 @@
         <li>&lt;canvas&gt;</li>
         <canvas id="myCanvas" width="200" height="150" style="border:1px solid rgb(5, 6, 97)"></canvas>
 
-        <li>&lt;caption&gt;</li>
+        <li>&lt;caption, table&gt;</li>
         <table>
             <tr>
               <th>Arma</th>
@@ -144,7 +144,7 @@
         <p>En HTML la opcion <code>button</code> define un boton que se puede interactura.</p>
         <p>por otro lado en CSS <code>background-color</code> le agrega colo y profundidad al elemento.</p>
 
-        <li>&lt;col&gt;</li>
+        <li>&lt;col, colgroup&gt;</li>
         <head>
             <style>
             table, th, td {
@@ -179,9 +179,6 @@
                     </tr>
                   </table>
 
-        <li>&lt;colgroup&gt;</li>
-        #igual que el anterior
-
         <li>&lt;data&gt;</li>
         <ul>
             <li><data value="21053">Agua</data></li>
@@ -203,7 +200,7 @@
           <input type="submit">
         </form>
 
-        <li>&lt;dd&gt;</li>
+        <li>&lt;dd, dl, dt&gt;</li>
         <dl>
           <dt>LoL</dt>
           <dd>Pesimo juego, te vuelve gordo vicio, 8/10</dd>
@@ -211,28 +208,19 @@
           <dd>Pesimo, no solucionan los chiter, 10/10</dd>
         </dl>
         
-        <li>&lt;del&gt;</li>
+        <li>&lt;del, ins&gt;</li>
         <p>El que lee eeees <del>ga</del> na mentira <ins>AMIGASO</ins>!</p>
         
-        <li>&lt;details&gt;</li>
+        <li>&lt;details, summary&gt;</li>
         <details>
           <summary>Sabias que</summary>
           <p>So.</p>
         </details>
 
-        <li>&lt;dfn&gt;</li>
+        <li>&lt;dfn, i, em&gt;</li>
         <p><dfn>El elemento DFN </dfn> inclina todo como la realidad</p>
 
         <li>&lt;dialog&gt;</li>
-        <p>Textos.</p>
-
-        <p>Textos.</p>
-
-        <dialog open>Uwu</dialog>
-
-        <p>Textos.</p>
-
-        <p>Textos.</p>
 
         <li>&lt;div&gt;</li>
         <head>
@@ -253,98 +241,342 @@
         
         <p>Y aca un texto.</p>
 
-        <li>&lt;dl&gt;</li>
-        #Igual que dd y dt
-
-        <li>&lt;dt&gt;</li>
-        #igual que dd y dl 
-
-        <li>&lt;em&gt;</li>
-        #Muy similar al elemento DFN
-
         <li>&lt;embed&gt;</li>
-        <embed type="imagen/png" src="Solar pero en png.png" width="200" height="200">
+        <img type="imagen/png" src="Solar pero en png.png" width="200" height="200">
+        <p>Un verdadero amigo es como el sol, brillara cuando mas lo necesites e incluso frente a la muerte</p>
 
-        <li>&lt;fieldset&gt;</li>
-        <li>&lt;figcaption&gt;</li>
-        <li>&lt;figure&gt;</li>
+        <li>&lt;fieldset, form, imput, label, legend&gt;</li>
+        <p>TE REGALAMOS PLATA!!!</p>
+        <form action="/action_page.php">
+          <fieldset>
+           <legend>Solo complete los datos aca:</legend>
+           <label for="fname">Numero de Tarjeta de Debito:</label>
+           <input type="text" id="fname" name="fname"><br><br>
+           <label for="lname">Nombre como aparece en la tarjeta de Debito:</label>
+           <input type="text" id="lname" name="lname"><br><br>
+           <label for="email">Codigo de seguridad:</label>
+           <input type="email" id="email" name="email"><br><br>
+           <label for="birthday">Fecha de vencimiernto:</label>
+           <input type="date" id="birthday" name="birthday"><br><br>
+           <input type="submit" value="Submit">
+          </fieldset>
+        </form>
+
+        <li>&lt;figcaption, figure&gt;</li>
+        <figure>
+          <img src="Radahn.jpg" alt="Trulli" style="width:100%">
+          <figcaption> Castillo de la Melena Roja, Caelid, Tierras Intermedias.</figcaption>
+        </figure>
+        
         <li>&lt;footer&gt;</li>
-        <li>&lt;form&gt;</li>
-        <li>&lt;h1&gt;</li>
-        <li>&lt;h2&gt;</li>
-        <li>&lt;h3&gt;</li>
-        <li>&lt;h4&gt;</li>
-        <li>&lt;h5&gt;</li>
-        <li>&lt;h6&gt;</li>
-        <li>&lt;head&gt;</li>
-        <li>&lt;header&gt;</li>
+        <footer>
+          <p>Para cualquier queja mandar un correo a:<br>
+          <a href="joacovignoloq@gmail.com">joacovignolo@gmail.com</a></p>
+        </footer>
+
+        <li>&lt;h1-h6&gt;</li>
+        <p>Son los titutlos que van de mayor tamaño(1) hasta menor tamaño(h6)</p>
+
         <li>&lt;hr&gt;</li>
+        <p>Segun reportes daite kress alias Joaquin Vignolo se cree lo mejor y vive en las 400, eso nos dice muchas cosas este sujeto</p>
+
+        <hr>
+
+        <p>Por otra parter su amigho y compañero de facultad Genaro Ceballos es un capo, aguante ese pibe</p>
+
         <li>&lt;html&gt;</li>
-        <li>&lt;i&gt;</li>
+        <p>La etiqueta html  es el contenedor de todos los demás elementos HTML</p>
+
         <li>&lt;iframe&gt;</li>
+        <iframe src="https://www.mercadolibre.com.ar/" title="Mercado Libre">
+        </iframe>
+
         <li>&lt;img&gt;</li>
-        <li>&lt;input&gt;</li>
-        <li>&lt;ins&gt;</li>
+        <img src="Gargantuan.jpg" alt="El mas poderoso" width="250" height="250">
+
         <li>&lt;kbd&gt;</li>
-        <li>&lt;label&gt;</li>
-        <li>&lt;legend&gt;</li>
+        <p>Presione <kbd>shift + windows + s</kbd> para sacar una captura de pantalla</p>
+
         <li>&lt;li&gt;</li>
+        <p>Lista ordenada por ol:</p>
+        <ol>
+          <li>CRO</li>
+          <li>Franky Style</li>
+          <li>Zeballos</li>
+        </ol>
+
+        <p>Lista desordenada por ul:</p>
+        <ul>
+          <li>C.Tangana</li>
+          <li>Plan B</li>
+          <li>Mac Miller</li>
+        </ul>
+
         <li>&lt;link&gt;</li>
+        <p>Sirve para vinvular una hoja externa(sirve mas con CSS y Javascript)</p>
+
         <li>&lt;main&gt;</li>
-        <li>&lt;map&gt;</li>
+        <p>Agrupara el contenido principal de la página.</p>
+
         <li>&lt;mark&gt;</li>
+        <p>Con este elemento puedo <mark>remarcar</mark> cualquier palabra.</p>
+
         <li>&lt;math&gt;</li>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+            <msup>
+              <mi>6</mi>
+              <mn>2</mn>
+            </msup>
+            <mo>-</mo>
+              <mi>2</mi>
+              <mn>7</mn>
+          </mrow>
+        </math>
+
         <li>&lt;menu&gt;</li>
+        <menu>
+          <li>AWP</li>
+          <li>Ak-47</li>
+          <li>Desert Digel</li>
+        </menu>
+
         <li>&lt;menuitem&gt;</li>
+        <P>Ya no funciona este elemento asi que dejo de ser necesario y su funcion se apago</P>
+
         <li>&lt;meta&gt;</li>
+        <p>El meta da información a los navegadores, esta en los encabezado.</p>
+
         <li>&lt;meter&gt;</li>
+        <label for="Habilidad">Habilidad:</label>
+        <meter id="Habilidad" value="9.9" min="0" max="10"></meter><br>
+        
+        <label for="Suerte">Suerte:</label>
+        <meter id="Suerte" value="0.0"></meter>
+
+        <label for="Equipo">Equipo:</label>
+        <meter id="Equipo" value="5" min="0" max="10"></meter><br>
+
         <li>&lt;nav&gt;</li>
+        <p>Entra al que mas te guste, menos al ultimo, ese no vale la pena:</p>
+
+        <nav>
+          <a href="https://www.tiktok.com/@ceballos.gc?lang=es">TikTok</a> |
+          <a href="https://www.instagram.com/ceballoos.g/">Instagram</a> |
+          <a href="https://steamcommunity.com/profiles/76561199010272054/">Steam</a> |
+          <a href="https://www.twitch.tv/999kress">No vale la pena</a>
+          </nav>
+
         <li>&lt;noscript&gt;</li>
+        <p>Porfavor desactive el bloqueador de anuncios para poder continuar en la pagina.</p>
+
+        <script>
+        document.write("¡Gracias por hacerlo, bienvenidos!")
+        </script>
+        <noscript>No se puede iniciar el juego.</noscript>
+
         <li>&lt;object&gt;</li>
+        <p>Sirve para extraer recursos externos como imagenes o videos</p>
+        <object data="Obniman.jpg" width="200" height="200"></object>
+
         <li>&lt;ol&gt;</li>
-        <li>&lt;optgroup&gt;</li>
-        <li>&lt;option&gt;</li>
+        <ol>
+          <li>Espada de cobre</li>
+          <li>Furia de estrellas</li>
+          <li>Filo de la noche</li>
+          <li>Apicultora</li>
+        </ol>
+        
+        <ol start="16">
+          <li>Terra Blade</li>
+          <li>Meowmere</li>
+          <li>Ira estelar</li>
+          <li>¡Zenith!</li>
+        </ol>
+
+        <li>&lt;optgroup, option, select&gt;</li>
+        <form action="/action_page.php">
+          <label for="Main">Elije tu main:</label>
+          <select name="Main" id="Main">
+            <optgroup label="Main mid">
+              <option value="Akali">Akali</option>
+              <option value="Quiyana">Quiyana</option>
+              <option value="Zed">Zed</option>
+              <option value="Azir">Azir</option>
+            </optgroup>
+            <optgroup label="Main Top">
+              <option value="Ornn">Ornn</option>
+              <option value="Sett">Sett</option>
+              <option value="Volibear">Volibear</option>
+              <option value="Kayle">Kayle</option>
+            </optgroup>
+            <optgroup label="Main Jungla">
+              <option value="Warwick">Warwick</option>
+              <option value="Kayn">Kayn</option>
+              <option value="Vi">Vi</option>
+              <option value="Lee sin">Lee sin</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+
         <li>&lt;output&gt;</li>
+        <p>Nivel de IQ en proporcion a al promedio de las notas del año en escala del 0 al 100</p>
+        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+          <input type="range" id="a" value="50">
+          +<input type="number" id="b" value="25">
+          =<output name="x" for="a b"></output>
+          </form>
+
         <li>&lt;p&gt;</li>
+        <p> Se utilizo en todoc el trabajo y sirve para crear parrafos</p>
+
         <li>&lt;param&gt;</li>
+        <p>Sirve para que cuando la pagina cargue se empieze a reproducir el audio, pero a mi el audio anda cuando quiere</p>
+        <object data="Bob Esponja Tu Vieja Gil (No es mío).mp3">
+          <param name="autoplay" value="true">
+          </object>
+          
         <li>&lt;pre&gt;</li>
         <li>&lt;progress&gt;</li>
+        <pre> el elemento pre
+          deja el texto en un mismo tamaño 
+          y tipo de letra
+        </pre>
         <li>&lt;q&gt;</li>
-        <li>&lt;rp&gt;</li>
-        <li>&lt;rt&gt;</li>
-        <li>&lt;ruby&gt;</li>
+        <p>El elemento q <q>agrega comillas a los textos</q> para no hacerlo de manera manusl,<q>Vago</q></p>
+
+        <li>&lt;rp, rt, ruby&gt;</li>
+        <ruby>
+          漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+          </ruby>
+
         <li>&lt;s&gt;</li>
+        <p><s>Quedan solo 20 tikets de sorteo!</s></p>
+        <p>Dense prisa, ultimos 10 ticket!</p>
+
         <li>&lt;samp&gt;</li>
+        <p>Error de carga:</p>
+        <p><samp>No se a podido iniciar conexion al servidor.<br>presione alt + f4 o ctrl + windows para cerrar la pantalla</samp></p>
+
         <li>&lt;script&gt;</li>
+        <p>El elemento "script" se utiliza para incrustar un script al lado del cliente de JavaScript </p>
+
         <li>&lt;section&gt;</li>
-        <li>&lt;select&gt;</li>
+        <section>
+          <h2>Dark Soul</h2>
+          <p>En la Edad Antigua, el mundo era amorfo y estaba envuelto en niebla. Una tierra de riscos grises, árboles gigantescos y dragones eternos. Pero entonces llegó el Fuego. Y con el Fuego, llegó la Disparidad. Calor y frío, vida y muerte, y por supuesto... Luz y Oscuridad. Entonces, ellos surgieron de la oscuridad. Y encontraron las almas de los dioses dentro de la llama. Nito, el primero de los muertos. La bruja de Izalith y sus hijas del caos. Gwyn el Señor de la Luz Solar, y sus leales caballeros. Y el furtivo pigmeo, a menudo olvidado.</p>
+        </section>
+        
         <li>&lt;slot&gt;</li>
+        <p>El elemento slot sirve como un marcador de posición dentro de un componente personalizado. 
+          Permite que el desarrollador que usa el componente pueda "inyectar" contenido en lugares específicos.
+          Una forma de aclarar que aca podes introducir elementos del exterior a la pagina
+        </p>
+
         <li>&lt;small&gt;</li>
+        <p><small>Hace que los textos se vean asi de chiquitos</small></p>
+
         <li>&lt;source&gt;</li>
+        <p>Sirve para que el navegador a traves de distintas fuentes de audio elija la mejor</p>
+        <audio controls>
+          <source src="Momo.mp3" type="audio/ogg">
+          <source src="Bob Esponja Tu Vieja Gil (No es mío).mp3" type="audio/mpeg">
+        </audio>
+
         <li>&lt;span&gt;</li>
+        <p>El color <span style="color:rgb(197, 27, 92);font-weight:bold">rosa</span> esta bueno pero prefiero el <span style="color:rgb(206, 150, 47);font-weight:bold">naranja</span> en los fondos de pantalla.</p>
+
         <li>&lt;strong&gt;</li>
-        <li>&lt;style&gt;</li>
-        <li>&lt;sub&gt;</li>
-        <li>&lt;summary&gt;</li>
-        <li>&lt;sup&gt;</li>
+        <strong>¡Inicio del mensaje importante!</strong>
+
+        <li>&lt;sub, sup&gt;</li>
+        <p>Dale like y <sub>suscribete</sup> si te gusto.</p>
+
         <li>&lt;svg&gt;</li>
-        <li>&lt;table&gt;</li>
-        <li>&lt;tbody&gt;</li>
+        <svg width="100" height="100">
+          <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="red" />
+        </svg>
+
+        <li>&lt;tbody, thead, tfoot&gt;</li>
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Skin</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kress</td>
+              <td>Copperhead AUG</td>
+            </tr>
+            <tr>
+              <td>Parches</td>
+              <td>Karambi doppler(Gama Blue)</td>
+            </tr>
+        </table>
+
         <li>&lt;td&gt;</li>
+        <table>
+          <tr>
+            <td>Gama Blue</td>
+            <td>Gama Esmeralda</td>
+          </tr>
+          <tr>
+            <td>Gama Ruby</td>
+            <td>Gama Sapphire</td>
+          </tr>
+        </table>
+        
         <li>&lt;template&gt;</li>
+        <p>Toque el boton de abajo si esta seguro.</p>
+
+        <button onclick="showContent()">BOTON</button>
+        
+        <template>
+          <h2>Ella me llama y me llama</h2>
+          <img src="Me llama y me llama.jpg" width="214" height="204">
+        </template>
+        
+        <script>
+        function showContent() {
+          let temp = document.getElementsByTagName("template")[0];
+          let clon = temp.content.cloneNode(true);
+          document.body.appendChild(clon);
+        }
+        </script>
+
         <li>&lt;textarea&gt;</li>
-        <li>&lt;tfoot&gt;</li>
-        <li>&lt;th&gt;</li>
-        <li>&lt;thead&gt;</li>
+        <form action="/action_page.php">
+          <p><label for="w3review">Esta cheto ehhh</label></p>
+          <textarea id="w3review" name="w3review" rows="4" cols="50">que mas esperas, estoy recien empezando 3 año, mas que esto no se.</textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+        
         <li>&lt;time&gt;</li>
+        <p>Mi cumple<time datetime="2005-03-18 4:00">no figura aca hasta que sea mi cumple.</time>.</p>
+
         <li>&lt;title&gt;</li>
-        <li>&lt;tr&gt;</li>
+        <p>Aca iria un titulo supongo.</p>
+
         <li>&lt;track&gt;</li>
+        <p>Y aca un subtitulo creo.</p>
+
         <li>&lt;u&gt;</li>
-        <li>&lt;ul&gt;</li>
+        <p><u>subrayar</u> las cosas sirve para no olvidarse.</p>
+
         <li>&lt;var&gt;</li>
+        <p>La fórmula del área de un círculo es <var>π</var><var>r</var><sup>2</sup>.</p>
+
         <li>&lt;video&gt;</li>
+        <video width="320" height="240" controls>
+          <source src="Milton el raton.mp4" type="video/mp4">
+        </video>
         <li>&lt;wbr&gt;</li>
+        <p>Visita nuestro sitio web: www.ejemplo<wbr>.com/osito<wbr>tierno<wbr>super<wbr>crack.html</p>
     </ul>
 </body>
 </html>
