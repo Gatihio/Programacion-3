@@ -41,8 +41,6 @@ def tres_sumas(numeros):
 
     return resultado
 
-
-# Prueba del código
 if __name__ == "__main__":
     nums = [-1, 0, 1, 2, -1, -4]
     tripletes = tres_sumas(nums)
